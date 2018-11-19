@@ -25,3 +25,11 @@ fetchJSON = (pathToResource, showResult) => {
     .then(showResult)
     .catch(logError);
 };
+
+postJSON = (pathToResource, json, showResult) => {
+  fetch(pathToResource, json)
+    .then(validateResponse)
+    .then(readResponseAsJSON)
+    .then(showResult)
+    .catch(logError);
+};

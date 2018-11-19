@@ -1,9 +1,9 @@
-var changeMapStyle = ()=> {
+let setNewMapStyle = () => {
   map.mapTypes.set("styled_map", getMapStyleJson());
   map.setMapTypeId("styled_map");
 };
 
-var getMapStyleJson = ()=> {
+let getMapStyleJson = () => {
   return new google.maps.StyledMapType([
     {
       elementType: "geometry",

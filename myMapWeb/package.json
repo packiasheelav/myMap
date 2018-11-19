@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "node-sass": "^4.10.0",
+    "sass": "^1.15.1"
+  },
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "name": "my-map-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Packia Sheela Varadhan <packiasheelav@gmail.com>",
+  "license": "MIT"
+}

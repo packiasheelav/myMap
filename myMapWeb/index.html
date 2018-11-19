@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="css/apple-icon-precomposed.png"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"
+    />
+    <title>My Map</title>
+    <style></style>
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="#default" class="logo">MyMap</a>
+      <div class="header-right"><!-- add header menu here --></div>
+    </div>
+    <div class="search">
+      <div>
+        <div class="row">
+          <div class="right">
+            <label id="lable-input" class="search__input">
+              <input
+                type="text"
+                onfocus="this.value=''"
+                placeholder="Enter a location.."
+                name="search__location"
+              />
+              <i class="material-icons">search</i>
+            </label>
+            <div id="map"></div>
+            <!-- load the google map -->
+          </div>
+          <div id="message">Location saved</div>
+        </div>
+      </div>
+    </div>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGfeG6ePnKR9c98Ubo-w3SNDTaGAiZbrM&libraries=places&callback=initMap"
+    ></script>
+    <script src="js/mapMarker.js"></script>
+    <script src="js/myFetch.js"></script>
+    <script src="js/myMap.js"></script>
+    <script src="js/mapStyle.js"></script>
+    <script src="js/searchPlaces.js"></script>
+    <script src="js/crud.js"></script>
+  </body>
+</html>

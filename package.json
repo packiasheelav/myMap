@@ -1,8 +1,0 @@
-{
-  "name": "my-map",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/packiasheelav/mymap.git",
-  "author": "Packia Sheela Varadhan <packiasheelav@gmail.com>",
-  "license": "MIT"
-}

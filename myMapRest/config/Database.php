@@ -5,7 +5,7 @@
     private $host = '127.0.0.1';
     private $db_name = 'mymap';
     private $username = 'root';
-    private $password = '12345';
+    private $password = '';
     private $conn;
 
     // DB Connect
