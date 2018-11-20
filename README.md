@@ -58,8 +58,8 @@ response :
 {
 "id": "72",
 "place_id": "ChIJXZFklC70kUYR57eAlK-GEu0",
-"title": "sssss",
-"description": "sss",
+"title": "Espoo",
+"description": "a nice cosy place to live",
 "latitude": "60.168498898502",
 "longitude": "24.941180493174",
 "opening_hrs": "0000-00-00 00:00:00"
